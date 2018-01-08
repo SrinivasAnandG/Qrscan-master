@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:padding="20dp"
+        android:layout_centerVertical="true"
+        android:id="@+id/tv"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="We, team Rigolade, are excited to take you on a quest around the college. Here’s some information before we begin:\n\n\nThis treasure hunt will be played by scanning QR codes for clues. Each clue will be present in the app and will guide you to the next QR code. Once you scan the correct QR code, the next clue will be unlocked. Follow the right sequence of QR codes to reach the final destination, where we will be waiting for you.
+\n\n
+Note: There are fake QR codes placed around the campus just to fool you…
+All the best everyone!!!
+"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="QR SCANNER"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:id="@+id/tvh"
+        android:layout_above="@+id/tv"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:textColor="#FFFFFF"
+        android:background="@android:color/transparent"
+        android:id="@+id/btn2"
+        android:onClick="onClick"
+        android:layout_below="@+id/tv"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
